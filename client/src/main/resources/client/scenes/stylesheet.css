@@ -1,0 +1,107 @@
+* {
+    -fx-font-family: Futura;
+    -fx-font-weight: bold;
+}
+
+* :disabled {
+    -fx-opacity: 1;
+}
+
+#progressBar {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-accent: #008057;
+}
+
+.button {
+    -fx-background-color: #11AD31;
+    -fx-max-height: 47;
+}
+
+.button:pressed {
+    -fx-background-color: #11AD31;
+    -fx-max-height: 47;
+    -fx-border-color: #EFDB22;
+    -fx-border-width: 4px;
+}
+
+/*
+If having an animation when mouse hover looks good,
+uncomment this.
+
+.button:hover {
+    -fx-background-color: #11AD31;
+    -fx-max-height: 47;
+    -fx-border-color: #EFDB22;
+    -fx-border-width: 4px;
+}
+*/
+
+.emojiButton {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.emojiButton:pressed {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#reconnectButton,
+#homeButton {
+    -fx-font-size: 20;
+}
+
+#gameBg,
+#entryBg,
+#countdownBg {
+    -fx-border-width: 0;
+    -fx-background-color: #6EB7F5;
+}
+
+#topPane, #rightPane, #leftPane, #centralPane, #bottomPane {
+    -fx-background-color: #6EB7F5;
+}
+
+#namePopupBg {
+    -fx-background-color: #4891CF;
+}
+
+#scoreLabel,
+#leaderboardTable {
+    -fx-background-color: #D7CC6B;
+}
+
+#scoreLabel {
+    -fx-text-fill: #165B24;
+}
+
+#questionLabel, #answerText {
+    -fx-background-color: #C4C4C4;
+}
+
+#jokerTime,
+#jokerPoints,
+#jokerAnswer,
+#IPField,
+#nameField {
+    -fx-background-color: #C4C4C4;
+}
+
+.table-row-cell:empty {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.table-column {
+    -fx-alignment: CENTER;
+}
+
+.table-view .scroll-bar:horizontal .increment-arrow,
+.table-view .scroll-bar:horizontal .decrement-arrow,
+.table-view .scroll-bar:horizontal .increment-button,
+.table-view .scroll-bar:horizontal .decrement-button {
+    -fx-padding:0;
+    -fx-background-color: transparent;
+    -fx-opacity: 0;
+}
